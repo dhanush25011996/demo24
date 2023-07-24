@@ -1,0 +1,2654 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* Header Navbar */
+nav {
+  background-color: #fff;
+}
+.nav-link-active {
+  color: hsl(15.45deg 96.12% 59.61%) !important ;
+}
+.logoheader {
+  color: hsl(15.45deg 96.12% 59.61%) !important;
+  font-size: 40px !important;
+}
+.nav-link {
+  color: #000;
+}
+.nav-link:hover {
+  color: hsl(15.45deg 96.12% 59.61%);
+}
+
+.openaccount-btn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 13px;
+}
+.openaccount-btn:hover {
+  background: white;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.demoaccount-btn {
+  background: transparent;
+  border-radius: 2px;
+  border: 1px solid #000;
+  color: #000;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 13px;
+}
+.demoaccount-btn:hover {
+  color: #fff;
+  background: #000;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+
+/*Footer */
+.subs-head {
+  font-weight: bold;
+}
+.footer-container {
+  background: hsl(221.54deg 41.94% 93.92%) !important;
+  margin-top: 5rem;
+  padding: 3rem 4rem;
+}
+.footer-store {
+  width: 75%;
+}
+.logotext {
+  color: hsl(15.45deg 96.12% 59.61%) !important;
+  font-size: 36px;
+  margin-bottom: 2rem;
+}
+.subs {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+.subs:hover {
+  color: hsl(15.45deg 96.12% 59.61%);
+}
+.footer-firstcol {
+  margin-top: 1rem;
+}
+.footer-container p {
+  margin-top: -15px;
+}
+
+/* Home page */
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 8px;
+  height: 6px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: hsl(15.45deg 96.12% 59.61%);
+  background-clip: padding-box;
+  border: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  opacity: 30 !important;
+}
+.tradingview-widget-container {
+  margin-top: 10rem;
+}
+.leaders {
+  margin-top: 4rem;
+  padding: 4rem 1rem;
+}
+.tick {
+  width: 3%;
+}
+.leaders-h1 {
+  font-size: 30px;
+}
+.leaders-img {
+  width: 100%;
+}
+.leaders-openaccountbtn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 55px;
+}
+.leaders-openaccountbtn:hover {
+  background: white;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.leaders-democcountbtn {
+  background: transparent;
+  border-radius: 7px;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  color: hsl(15.45deg 96.12% 59.61%);
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 45px;
+  margin-left: -4rem;
+}
+.leaders-democcountbtn:hover {
+  color: #fff;
+  background: #000;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.cngcard {
+  padding: 1rem 1rem;
+}
+.cngcard .card {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  border-radius: 7px;
+  width: 80%;
+  height: 270px;
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  border: none;
+}
+.cngcard-center {
+  background-color: hsl(221.54deg 41.94% 93.92%);
+}
+.cngcard-h {
+  font-size: 17px;
+  margin-top: 2rem;
+  padding: 0rem 1.5rem;
+}
+.cngcard-p {
+  margin-top: 1.5rem;
+  font-size: 12px;
+  padding: 0rem 1.5rem;
+}
+.cngcard-a {
+  color: hsl(224.35deg 36.8% 49.02%);
+  font-size: 12px;
+  padding: 0rem 1.5rem;
+}
+.cngcard-a1 {
+  color: black;
+  font-size: 12px;
+  padding: 0rem 1.5rem;
+}
+.availableon {
+  padding: 4rem 2rem;
+}
+.availableon-img {
+  width: 60%;
+}
+.availableon-h {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.availableon-storeimg {
+  width: 60%;
+}
+.availableon-seconcol {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.dataandresource {
+  background-color: hsl(221.54deg 41.94% 93.92%);
+  padding: 3rem 2rem;
+}
+.dataandresource-h {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.dataandresource-forexapi {
+  display: flex;
+}
+.dataandresource-forexapi-img {
+  width: 12%;
+  height: 49px;
+  margin-top: 10px;
+}
+.dataandresource-forexapi-h {
+  font-weight: 400;
+  font-size: 18px;
+}
+.dataandresource-forexapi-p {
+  font-size: 9px;
+}
+.dataandapispan {
+  text-decoration: underline;
+  font-weight: 800;
+}
+.dotted {
+  border-top: 2px dotted black;
+  height: 3px;
+  width: 100%;
+}
+.latestinsights-p {
+  font-size: 8px;
+  margin-top: -15px;
+}
+.viewinsights-btn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 0px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 5px 40px;
+  margin-top: 4px;
+}
+.viewinsights-btn:hover {
+  background: white;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.mt4andmt5 {
+  padding: 5rem 1rem;
+}
+.mt4andmt5-h {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.mt4andmt5-h2 {
+  font-weight: 700;
+  color: hsl(15.45deg 96.12% 59.61%);
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 2rem;
+}
+.mt4andmt5-img {
+  width: 7%;
+  height: 30px;
+}
+.mt4andmt5-img2 {
+  width: 7%;
+  height: 30px;
+}
+.mt4andmt5-texts {
+  height: 10px;
+}
+.mt4andmt5-firstcol {
+  padding: 4rem 9rem;
+}
+.mt4andmt5-seconcol {
+  padding: 4rem 10rem;
+}
+.btext {
+  font-size: 20px;
+  font-weight: 400;
+}
+.mt4andmt5-p {
+  font-size: 11px;
+  margin-top: -15px;
+}
+.gotomt4andmt5-btn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 7px 40px;
+  margin-top: 4px;
+}
+.gotomt4andmt5-btn:hover {
+  background: white;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.vl {
+  border-left: 1.5px solid hsl(15.45deg 96.12% 59.61%);
+  height: 185px;
+  position: relative;
+  left: 598px;
+  top: -42px;
+}
+.advantageofmt {
+  padding: 3rem 5rem;
+}
+.advantageofmt-img {
+  width: 47%;
+}
+.advantageofmt-h {
+  font-size: 25px;
+}
+.advantageofmt-p {
+  font-size: 12px;
+}
+.advantageofmt-firstcol {
+  margin-top: 7rem;
+  padding-left: 35px;
+}
+.powerfultools {
+  padding: 1rem 1rem;
+  background-color: hsl(221.54deg 41.94% 93.92%);
+}
+.powerfultools-img {
+  width: 85%;
+}
+.powerfultools-seconcol {
+  margin-top: 7rem;
+  padding-right: 95px;
+}
+.powerfultools-h {
+  font-size: 25px;
+}
+.powerfultools-p {
+  font-size: 12px;
+}
+.copytrading {
+  padding: 3rem 5rem;
+}
+.copytrading-img {
+  width: 75%;
+}
+.copytrading-img2 {
+  width: 10%;
+  height: 30px;
+}
+.copytrading-h {
+  font-size: 24px;
+}
+.copytrading-p {
+  font-size: 12px;
+}
+.copytrading-firstcol {
+  margin-top: 6rem;
+}
+.copytrading-h2 {
+  font-weight: 600;
+  color: hsl(15.45deg 96.12% 59.61%);
+  font-size: 18px;
+  margin-top: 5px;
+}
+.endless {
+  padding: 5rem 5rem;
+}
+.endless-h {
+  font-size: 24px;
+}
+.endless-p {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.endless-firstcol {
+  padding-left: 4rem;
+  margin-top: 185px;
+}
+.endless-h2 {
+  font-size: 14px;
+  color: hsl(15.45deg 96.12% 59.61%);
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+.endless-p2 {
+  font-size: 28px;
+}
+.endless-p3 {
+  font-size: 14px;
+  padding-right: 326px;
+}
+.explore-btn {
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid hsl(15.45deg 96.12% 59.61%);
+  color: hsl(15.45deg 96.12% 59.61%);
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 13px;
+}
+
+.nav-link-color {
+  color: #fff;
+  background-color: hsl(15.45deg 96.12% 59.61%);
+}
+
+/* Home page End */
+
+/* Instrument Page */
+.tradinginstruments {
+  padding: 7rem 2rem;
+}
+.tradinginstruments-img {
+  width: 90%;
+}
+.tradinginstruments-firstcol {
+  margin-top: 6rem;
+}
+.tradinginstruments-h {
+  font-size: 35px;
+  font-weight: bold;
+}
+.tradinginstruments-p {
+  font-size: 15px;
+}
+.learnmore-btn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.tradeforex {
+  padding: 2rem 2rem;
+}
+.tradeforex-h {
+  font-size: 25px;
+}
+.tradeforex-p {
+  font-size: 12px;
+  color: gray;
+}
+.tradeforex-p2 {
+  font-size: 13px;
+}
+.tradeforex-img {
+  width: 65%;
+}
+.instrument-icons {
+  width: 6%;
+}
+.tradeforex-firstcol {
+  margin-top: 4rem;
+  padding: 0rem 4rem;
+}
+.tradeforex hr {
+  border: 1.5px solid black;
+}
+.tradespotmetals hr {
+  border: 1.5px solid black;
+}
+.tradespotmetals {
+  padding: 2rem 2rem;
+}
+
+/* Instrument Page End*/
+
+/* Accounts Page */
+.chooseaccount {
+  padding: 8rem 3rem;
+}
+.chooseaccount-img {
+  width: 120%;
+}
+.chooseaccount-h {
+  font-size: 25px;
+  font-weight: bold;
+}
+.chooseaccount-p {
+  font-size: 12px;
+  padding-right: 16rem;
+}
+.chooseaccount-firstcol {
+  margin-top: 8rem;
+}
+.chooseaccount-learnmorebtn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.chooseaccount-learnmorebtn:hover {
+  background: white;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.our-features {
+  padding: 5rem 3rem;
+  background-color: hsl(221.54deg 41.94% 93.92%);
+}
+.our-features-img {
+  width: 70%;
+  height: auto;
+  margin-top: -1rem;
+}
+.our-features-h {
+  font-size: 25px;
+  font-weight: 600 !important;
+}
+.features-p1 {
+  font-size: 14px;
+}
+.features-p2 {
+  font-weight: 800;
+}
+.knowmorebtn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.our-accounts {
+  padding: 3rem 3rem;
+}
+.our-accounts-h {
+  margin-top: 2rem;
+  font-size: 25px;
+}
+.ouraccounts-card .card {
+  border: none;
+  border-radius: 0px;
+  filter: drop-shadow(150px 70px 15px hsl(217.5deg 36.36% 95.69%));
+  height: auto;
+  padding: 3rem 0rem;
+  background: linear-gradient(135deg, hsl(217.5deg 36.36% 95.69%), #fff);
+  /* box-shadow: 0px 0px 80px hsl(217.5deg 36.36% 95.69%); */
+  width: auto;
+}
+.ouraccounts-card h3 {
+  color: hsl(15.45deg 96.12% 59.61%);
+  font-weight: 600;
+}
+.card-p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.card-dp {
+  font-size: 14px;
+  font-weight: 600;
+}
+.dollar {
+  font-weight: 900;
+  position: relative;
+  top: -7px;
+  font-size: 17px;
+}
+.our-accounts-getstartedbtn {
+  color: hsl(15.45deg 96.12% 59.61%);
+  border: 2px solid hsl(15.45deg 96.12% 59.61%);
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+.getallbenefits {
+  padding: 3rem 3rem;
+}
+.getallbenefits-img {
+  width: 90%;
+}
+.getallbenefits-h {
+  font-size: 25px;
+}
+.getallbenefits-p {
+  font-size: 12px;
+}
+.getallbenefits-firstcol {
+  margin-top: 10rem;
+}
+.movetiers {
+  padding: 3rem 3rem;
+}
+.movetiers-img {
+  width: 60%;
+}
+.movetiers-h {
+  font-size: 25px;
+}
+.movetiers-p {
+  font-size: 12px;
+}
+.movetiers-seconcol {
+  margin-top: 12rem;
+}
+/* Accounts Page End */
+
+/* About Page */
+
+.successfultrader {
+  padding: 2rem 5rem;
+}
+.successfultrader-img {
+  width: 65%;
+  margin-top: 65px;
+}
+.successfultrader-h {
+  font-size: 25px;
+  font-weight: 700;
+}
+.successfultrader-p {
+  font-size: 12px;
+}
+.successfultrader-firstcol {
+  margin-top: 15rem;
+}
+.successfultrader-learnmorebtn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.ourmission {
+  padding: 2rem 5rem;
+}
+.ourmission-h {
+  font-size: 25px;
+}
+.ourmission-p {
+  font-size: 12px;
+}
+.ourmission-img {
+  width: 51%;
+  margin-top: -31px;
+}
+.progressimg {
+  width: 40px;
+  position: relative;
+  bottom: 246px;
+  left: 797px;
+}
+.businessgrowth {
+  padding: 3rem 3rem;
+  margin-top: -7rem;
+}
+.businessgrowth-h {
+  font-size: 22px;
+}
+.businessgrowth-h2 {
+  font-size: 18px;
+  margin-top: 1.5rem;
+}
+.businessgrowth-p {
+  font-size: 10px;
+}
+.businessgrowth-tick {
+  width: 11%;
+}
+.businessgrowth-card-h {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.businessgrowth-card-p {
+  font-size: 9px;
+  color: gray;
+  text-align: center;
+  margin-top: 5px;
+}
+.businessgrowth-card .card {
+  padding: 1rem 0rem;
+  height: 250px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 1px 1px 5px hsl(15.45deg 96.12% 59.61%);
+  border-radius: 0px;
+}
+.businessgrowth-card-img {
+  width: 65%;
+  height: 120px;
+}
+.testimonials {
+  padding: 2rem 3rem;
+  background-color: hsl(221.54deg 41.94% 93.92%);
+}
+.testimonials-h {
+  text-align: center;
+  font-size: 25px;
+}
+.testimonials-centerimg {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.testimonials-img {
+  width: 10%;
+}
+.testimonials-p {
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  margin-top: 3rem;
+}
+.testimonials-name {
+  color: hsl(245.38deg 60% 25.49%);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+.testimonials-designation {
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  margin-top: -15px;
+}
+.testimonials-fimg1,
+.testimonials-fimg2,
+.testimonials-fimg3,
+.testimonials-fimg4,
+.testimonials-fimg5,
+.testimonials-fimg6 {
+  position: relative;
+}
+.testimonials-fimg1 {
+  width: 90px;
+  height: 69px;
+  left: 216px;
+  top: 73px;
+}
+.testimonials-fimg2 {
+  width: 70px;
+  top: 225px;
+  left: -3rem;
+  height: 48px;
+}
+.testimonials-fimg3 {
+  width: 70px;
+  top: 366px;
+  height: 50px;
+}
+.testimonials-fimg4 {
+  width: 6%;
+  left: 56rem;
+  height: 50px;
+  top: -20rem;
+}
+.testimonials-fimg5 {
+  width: 8%;
+  left: 67rem;
+  top: -245px;
+  height: 78px;
+}
+.testimonials-fimg6 {
+  width: 6%;
+  left: 50rem;
+  height: 50px;
+  top: -55px;
+}
+.worldmap {
+  padding: 4rem 2rem;
+}
+.worldmap-bg {
+  background-image: url(../AboutPage/Dotted_Map_White_Background\ [Converted]\ 1.png);
+  height: 555px;
+  background-position: center;
+  background-size: cover;
+}
+.worldmap-contents {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.worldmap-h {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.worldmap-p {
+  text-align: center;
+  font-size: 12px;
+  padding: 0rem 18rem;
+  margin-top: 2rem;
+}
+.worldmap-getstartedbtncnr {
+  display: flex;
+  justify-content: center;
+}
+.worldmap-getstartedbtn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.worldmap-getstartedbtn:hover {
+  color: #000;
+  background: transparent;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.commonasked-questions {
+  padding: 2rem 3rem;
+}
+.commonasked-questions-img {
+  width: 70%;
+}
+.commonasked-questions-h {
+  color: hsl(245.38deg 61.9% 24.71%);
+  font-size: 25px;
+}
+.commonasked-questions-p {
+  color: gray;
+  font-size: 12px;
+}
+.accordion-container {
+  padding: 0rem 3rem;
+}
+
+/*Accordion */
+.accordion {
+  --bs-accordion-bg: transparent;
+  --bs-accordion-border-color: hsl(15.45deg 96.12% 59.61%);
+  /* box-shadow: 1px 1px 20px hsl(15.45deg 96.12% 59.61%); */
+}
+.accordion-p {
+  color: gray;
+  font-size: 11px;
+}
+.accordion-item:first-of-type {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.accordion-item:last-of-type {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+  font-size: 1rem;
+  color: var(--bs-accordion-btn-color);
+  text-align: left;
+  background-color: var(--bs-accordion-btn-bg);
+  border-top: 1px solid hsl(15.45deg 96.12% 59.61%);
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: var(--bs-accordion-transition);
+  border-bottom: none;
+}
+.accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  background-image: url(../AboutPage/fdfd.png);
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../AboutPage/nhh.png);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion-button:not(.collapsed) {
+  color: hsl(245.38deg 61.9% 24.71%);
+  background-color: transparent;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+    var(--bs-accordion-border-color);
+}
+/*Accordion End */
+/* About Page End*/
+
+/* Platform Page */
+.tradingsignals-adjus-p {
+  position: relative;
+  left: 25px;
+}
+.worldclass {
+  padding: 6rem 3rem;
+}
+.worldclass-img {
+  width: 75%;
+}
+.worldclass-firstcol {
+  margin-top: 5rem;
+}
+.worldclass-h {
+  font-size: 30px;
+  font-weight: 700;
+}
+.worldclass-p {
+  font-size: 15px;
+}
+.worldclass-learnmorebtn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.worldclass-learnmorebtn:hover {
+  background: transparent;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.availableonall {
+  padding: 5rem 3rem;
+}
+.availableonall-img {
+  width: 90%;
+}
+.availableonall-h {
+  font-size: 25px;
+}
+.availableonall-p {
+  font-size: 12px;
+  padding-right: 7rem;
+}
+.availableonall-seconcol {
+  margin-top: 3rem;
+}
+.availableonall-card-container {
+  margin-top: 4rem;
+}
+.availableonall-card .card {
+  padding: 1rem 1rem;
+  border-radius: 0px;
+  border: 2px solid hsl(15.45deg 96.12% 59.61%);
+}
+.availableonall-card-p {
+  font-size: 10px;
+}
+.availableonall-card-texts {
+  margin-left: 3rem;
+}
+.storename {
+  font-size: 15px;
+  font-weight: 600;
+}
+.windowsicon {
+  width: 60px;
+  height: 80px;
+}
+.download-btn {
+  color: white;
+  border-radius: 30px;
+  background-color: hsl(15.45deg 96.12% 59.61%);
+}
+.download-btn:hover {
+  background: transparent;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.practiceaccount-img {
+  width: 90%;
+}
+.practiceaccount {
+  padding: 0rem 3rem;
+  background-color: hsl(217.5deg 36.36% 95.69%);
+  padding-top: 3rem;
+}
+.practiceaccount-h {
+  font-size: 25px;
+}
+.practiceaccount-p {
+  color: gray;
+  font-size: 12px;
+}
+.practiceaccount-firstcol {
+  margin-top: 1rem;
+}
+.fpabtn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.fpabtn:hover {
+  background: transparent;
+  border: 1px solid hsl(15.45deg 96.12% 59.61%);
+}
+.platform-func {
+  padding: 2rem 3rem;
+}
+.platform-func-h {
+  font-size: 25px;
+}
+.platform-func-table-firstrow {
+  text-align: center;
+  background-color: hsl(15.45deg 96.12% 59.61%);
+  color: white;
+}
+.platform-func td,
+th {
+  text-align: center;
+  padding: 10px 45px;
+}
+.platform-func-table-thirdrow {
+  background-color: hsl(217.5deg 36.36% 95.69%);
+}
+.ideaimg {
+  width: 65px;
+}
+.platformfunc-card {
+  margin-top: 2.5rem;
+}
+.platformfunc-card .card {
+  padding: 2rem 3rem;
+  border: none;
+  border-radius: 0px;
+  background-color: hsl(221.54deg 41.94% 93.92%);
+  height: 270px;
+}
+.platformfunc-card-p {
+  font-size: 25px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.platformfunc-card-p2 {
+  font-size: 15px;
+  margin-top: 14px;
+  line-height: 25px;
+}
+.o-learnmore {
+  color: hsl(15.45deg 96.12% 59.61%) !important;
+  font-weight: 600;
+}
+.platform-func-firstcol {
+  margin-top: 1rem;
+}
+.tradingsignals {
+  padding: 2rem 5rem;
+}
+.tradingsignals-tick {
+  width: 17px;
+}
+.tradingsignals-h {
+  font-size: 30px;
+}
+.tradingsignals-p {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.moreabout {
+  padding: 3rem 4rem;
+}
+.moreabout-h {
+  font-size: 25px;
+}
+.moreabout-p {
+  font-size: 13px;
+  color: gray;
+}
+.moreabout-seconcol {
+  margin-top: 2rem;
+}
+.trydemo-img {
+  width: 160px;
+}
+.trydemo-trydemobtn {
+  background: hsl(15.45deg 96.12% 59.61%);
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 45px;
+  margin-top: 1rem;
+}
+.trydemo-p {
+  font-size: 12px;
+  color: gray;
+}
+.orangetext {
+  color: hsl(15.45deg 96.12% 59.61%);
+  font-weight: 600;
+}
+/* Platform Page End */
+
+/* Media Queries for 125% */
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  /* Platform Page */
+  .worldclass {
+    padding: 6rem 3rem;
+  }
+  .worldclass-img {
+    width: 74%;
+  }
+  .worldclass-firstcol {
+    margin-top: 3rem;
+  }
+  .worldclass-h {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .worldclass-p {
+    font-size: 12px;
+  }
+  .worldclass-learnmorebtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .worldclass-learnmorebtn:hover {
+    background: transparent;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .availableonall {
+    padding: 6rem 3rem;
+  }
+  .availableonall-img {
+    width: 90%;
+  }
+  .availableonall-h {
+    font-size: 25px;
+  }
+  .availableonall-p {
+    font-size: 12px;
+    padding-right: 7rem;
+  }
+  .availableonall-seconcol {
+    margin-top: 3rem;
+  }
+  .availableonall-card-container {
+    margin-top: 4rem;
+  }
+  .availableonall-card .card {
+    padding: 1rem 1rem;
+    border-radius: 0px;
+    border: 2px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .availableonall-card-p {
+    font-size: 10px;
+  }
+  .availableonall-card-texts {
+    margin-left: 3rem;
+  }
+  .storename {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .windowsicon {
+    width: 60px;
+    height: 80px;
+  }
+  .download-btn {
+    color: white;
+    border-radius: 30px;
+    background-color: hsl(15.45deg 96.12% 59.61%);
+  }
+  .download-btn:hover {
+    background: transparent;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .practiceaccount-img {
+    width: 90%;
+  }
+  .practiceaccount {
+    padding: 0rem 3rem;
+    background-color: hsl(217.5deg 36.36% 95.69%);
+    padding-top: 3rem;
+  }
+  .practiceaccount-h {
+    font-size: 25px;
+  }
+  .practiceaccount-p {
+    color: gray;
+    font-size: 12px;
+  }
+  .practiceaccount-firstcol {
+    margin-top: 1rem;
+  }
+  .fpabtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .fpabtn:hover {
+    background: transparent;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .platform-func {
+    padding: 2rem 3rem;
+  }
+  .platform-func-h {
+    font-size: 25px;
+  }
+  .platform-func-table-firstrow {
+    text-align: center;
+    background-color: hsl(15.45deg 96.12% 59.61%);
+    color: white;
+  }
+  .platform-func td,
+  th {
+    text-align: center;
+    padding: 10px 45px;
+  }
+  .platform-func-table-thirdrow {
+    background-color: hsl(217.5deg 36.36% 95.69%);
+  }
+  .ideaimg {
+    width: 65px;
+  }
+  .platformfunc-card {
+    margin-top: 2.5rem;
+  }
+  .platformfunc-card .card {
+    padding: 2rem 3rem;
+    border: none;
+    border-radius: 0px;
+    background-color: hsl(221.54deg 41.94% 93.92%);
+    height: 270px;
+  }
+  .platformfunc-card-p {
+    font-size: 25px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+  .platformfunc-card-p2 {
+    font-size: 15px;
+    margin-top: 14px;
+    line-height: 25px;
+  }
+  .o-learnmore {
+    color: hsl(15.45deg 96.12% 59.61%) !important;
+    font-weight: 600;
+  }
+  .platform-func-firstcol {
+    margin-top: 1rem;
+  }
+  .tradingsignals {
+    padding: 2rem 5rem;
+  }
+  .tradingsignals-tick {
+    width: 17px;
+  }
+  .tradingsignals-h {
+    font-size: 30px;
+  }
+  .tradingsignals-p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .moreabout {
+    padding: 3rem 4rem;
+  }
+  .moreabout-h {
+    font-size: 25px;
+  }
+  .moreabout-p {
+    font-size: 13px;
+    color: gray;
+  }
+  .moreabout-seconcol {
+    margin-top: 2rem;
+  }
+  .trydemo-img {
+    width: 160px;
+  }
+  .trydemo-trydemobtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 45px;
+    margin-top: 1rem;
+  }
+  .trydemo-p {
+    font-size: 12px;
+    color: gray;
+  }
+  .orangetext {
+    color: hsl(15.45deg 96.12% 59.61%);
+    font-weight: 600;
+  }
+  /* Platform Page End */
+  .successfultrader {
+    padding: 2rem 5rem;
+  }
+  .successfultrader-img {
+    width: 70%;
+    margin-top: 100px;
+  }
+  .successfultrader-h {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .successfultrader-p {
+    font-size: 12px;
+  }
+  .successfultrader-firstcol {
+    margin-top: 14rem;
+  }
+  .successfultrader-learnmorebtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .ourmission {
+    padding: 2rem 5rem;
+  }
+  .ourmission-h {
+    font-size: 25px;
+  }
+  .ourmission-p {
+    font-size: 12px;
+  }
+  .ourmission-img {
+    width: 55%;
+    margin-top: 10px;
+  }
+  .progressimg {
+    width: 40px;
+    position: relative;
+    bottom: 233px;
+    left: 577px;
+  }
+  .businessgrowth {
+    padding: 3rem 3rem;
+    margin-top: -7rem;
+  }
+  .businessgrowth-h {
+    font-size: 22px;
+  }
+  .businessgrowth-h2 {
+    font-size: 18px;
+    margin-top: 1.5rem;
+  }
+  .businessgrowth-p {
+    font-size: 10px;
+  }
+  .businessgrowth-tick {
+    width: 11%;
+  }
+  .businessgrowth-card-p {
+    font-size: 9px;
+    color: gray;
+    text-align: center;
+    margin-top: 18px;
+  }
+  .businessgrowth-card .card {
+    padding: 2rem 5px;
+    height: 250px;
+    margin-top: 2rem;
+    border: none;
+    box-shadow: 1px 1px 5px hsl(15.45deg 96.12% 59.61%);
+    border-radius: 0px;
+  }
+  .businessgrowth-card-img {
+    width: 92px;
+    height: 90px;
+  }
+  .testimonials {
+    padding: 2rem 3rem;
+    background-color: hsl(221.54deg 41.94% 93.92%);
+  }
+  .testimonials-h {
+    text-align: center;
+    font-size: 25px;
+  }
+  .testimonials-centerimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  .testimonials-img {
+    width: 10%;
+  }
+  .testimonials-p {
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    margin-top: 3rem;
+  }
+  .testimonials-name {
+    color: hsl(245.38deg 60% 25.49%);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .testimonials-designation {
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    margin-top: -15px;
+  }
+  .testimonials-fimg1,
+  .testimonials-fimg2,
+  .testimonials-fimg3,
+  .testimonials-fimg4,
+  .testimonials-fimg5,
+  .testimonials-fimg6 {
+    position: relative;
+  }
+  .testimonials-fimg1 {
+    width: 80px;
+    height: 62px;
+    left: 182px;
+    top: 53px;
+  }
+  .testimonials-fimg2 {
+    width: 70px;
+    top: 225px;
+    left: -3rem;
+    height: 48px;
+  }
+  .testimonials-fimg3 {
+    width: 70px;
+    top: 342px;
+    height: 50px;
+  }
+  .testimonials-fimg4 {
+    width: 6%;
+    left: 48rem;
+    height: 41px;
+    top: -20rem;
+  }
+  .testimonials-fimg5 {
+    width: 8%;
+    left: 55rem;
+    top: -245px;
+    height: 61px;
+  }
+  .testimonials-fimg6 {
+    width: 7%;
+    left: 43rem;
+    height: 50px;
+    top: -72px;
+  }
+  .worldmap {
+    padding: 4rem 2rem;
+  }
+  .worldmap-bg {
+    background-image: url(../AboutPage/Dotted_Map_White_Background\ [Converted]\ 1.png);
+    height: 555px;
+    background-position: center;
+    background-size: cover;
+  }
+  .worldmap-contents {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .worldmap-h {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .worldmap-p {
+    text-align: center;
+    font-size: 12px;
+    padding: 0rem 18rem;
+    margin-top: 2rem;
+  }
+  .worldmap-getstartedbtncnr {
+    display: flex;
+    justify-content: center;
+  }
+  .worldmap-getstartedbtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .worldmap-getstartedbtn:hover {
+    color: #000;
+    background: transparent;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .commonasked-questions {
+    padding: 2rem 3rem;
+  }
+  .commonasked-questions-img {
+    width: 90%;
+  }
+  .commonasked-questions-h {
+    color: hsl(245.38deg 61.9% 24.71%);
+    font-size: 25px;
+  }
+  .commonasked-questions-p {
+    color: gray;
+    font-size: 12px;
+  }
+  .accordion-container {
+    padding: 0rem 3rem;
+  }
+
+  /*Accordion */
+  .accordion {
+    --bs-accordion-bg: transparent;
+    --bs-accordion-border-color: hsl(15.45deg 96.12% 59.61%);
+    /* box-shadow: 1px 1px 20px hsl(15.45deg 96.12% 59.61%); */
+  }
+  .accordion-p {
+    color: gray;
+    font-size: 12px;
+  }
+  .accordion-item:first-of-type {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+  .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .accordion-item:last-of-type {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border-top: 1px solid hsl(15.45deg 96.12% 59.61%);
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+    border-bottom: none;
+  }
+  .accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url(../AboutPage/fdfd.png);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url(../AboutPage/nhh.png);
+    transform: var(--bs-accordion-btn-icon-transform);
+  }
+  .accordion-button:not(.collapsed) {
+    color: hsl(245.38deg 61.9% 24.71%);
+    background-color: transparent;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+      var(--bs-accordion-border-color);
+  }
+  /*Accordion End */
+  /* About Page End*/
+  /* Accounts Page */
+  .chooseaccount {
+    padding: 8rem 3rem;
+  }
+  .chooseaccount-img {
+    width: 120%;
+  }
+  .chooseaccount-h {
+    font-size: 25px;
+  }
+  .chooseaccount-p {
+    font-size: 12px;
+    padding-right: 9rem;
+  }
+  .chooseaccount-firstcol {
+    margin-top: 6rem;
+  }
+  .chooseaccount-learnmorebtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .chooseaccount-learnmorebtn:hover {
+    background: white;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .our-features {
+    padding: 5rem 3rem;
+    background-color: hsl(221.54deg 41.94% 93.92%);
+  }
+  .our-features-img {
+    width: 70%;
+    height: 370px;
+    margin-top: 4rem;
+  }
+  .our-features-h {
+    font-size: 25px;
+    font-weight: 600 !important;
+  }
+  .features-p1 {
+    font-size: 14px;
+  }
+  .features-p2 {
+    font-weight: 800;
+  }
+  .knowmorebtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .our-accounts {
+    padding: 3rem 3rem;
+  }
+  .our-accounts-h {
+    margin-top: 2rem;
+    font-size: 25px;
+  }
+  .ouraccounts-card .card {
+    border: none;
+    border-radius: 0px;
+    filter: drop-shadow(150px 70px 15px hsl(217.5deg 36.36% 95.69%));
+    height: 320px;
+    padding: 3rem 0rem;
+    background: linear-gradient(135deg, hsl(217.5deg 36.36% 95.69%), #fff);
+    /* box-shadow: 0px 0px 80px hsl(217.5deg 36.36% 95.69%); */
+    width: 300px;
+  }
+  .ouraccounts-card h3 {
+    color: hsl(15.45deg 96.12% 59.61%);
+    font-weight: 600;
+  }
+  .card-p {
+    font-size: 11px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .card-dp {
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .dollar {
+    font-weight: 900;
+    position: relative;
+    top: -7px;
+    font-size: 17px;
+  }
+  .our-accounts-getstartedbtn {
+    color: hsl(15.45deg 96.12% 59.61%);
+    border: 2px solid hsl(15.45deg 96.12% 59.61%);
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 1rem;
+  }
+  .getallbenefits {
+    padding: 3rem 3rem;
+  }
+  .getallbenefits-img {
+    width: 90%;
+  }
+  .getallbenefits-h {
+    font-size: 25px;
+  }
+  .getallbenefits-p {
+    font-size: 12px;
+  }
+  .getallbenefits-firstcol {
+    margin-top: 6rem;
+  }
+  .movetiers {
+    padding: 3rem 3rem;
+  }
+  .movetiers-img {
+    width: 60%;
+  }
+  .movetiers-h {
+    font-size: 25px;
+  }
+  .movetiers-p {
+    font-size: 12px;
+  }
+  .movetiers-seconcol {
+    margin-top: 8rem;
+  }
+  /* Accounts Page End */
+  /* Instrument Page */
+  .tradinginstruments {
+    padding: 7rem 2rem;
+  }
+  .tradinginstruments-img {
+    width: 90%;
+  }
+  .tradinginstruments-firstcol {
+    margin-top: 4rem;
+  }
+  .tradinginstruments-h {
+    font-size: 35px;
+  }
+  .tradinginstruments-p {
+    font-size: 12px;
+  }
+  .learnmore-btn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .tradeforex {
+    padding: 2rem 2rem;
+  }
+  .tradeforex-h {
+    font-size: 25px;
+  }
+  .tradeforex-p {
+    font-size: 12px;
+    color: gray;
+  }
+  .tradeforex-p2 {
+    font-size: 13px;
+  }
+  .tradeforex-img {
+    width: 78%;
+  }
+  .instrument-icons {
+    width: 6%;
+  }
+  .tradeforex-firstcol {
+    margin-top: 4rem;
+    padding: 0rem 4rem;
+  }
+  .tradeforex hr {
+    border: 1.5px solid black;
+  }
+  .tradespotmetals hr {
+    border: 1.5px solid black;
+  }
+  .tradespotmetals {
+    padding: 2rem 2rem;
+  }
+
+  /* Instrument Page End*/
+
+  /* Header Navbar */
+  nav {
+    background-color: #fff;
+  }
+  .nav-link-active {
+    color: hsl(15.45deg 96.12% 59.61%);
+  }
+  .logoheader {
+    color: hsl(15.45deg 96.12% 59.61%) !important;
+    font-size: 40px !important;
+  }
+  .nav-link {
+    color: #000;
+  }
+  .nav-link:hover {
+    color: hsl(15.45deg 96.12% 59.61%);
+  }
+
+  .openaccount-btn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 13px;
+  }
+  .openaccount-btn:hover {
+    background: white;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .demoaccount-btn {
+    background: transparent;
+    border-radius: 2px;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 13px;
+  }
+  .demoaccount-btn:hover {
+    color: #fff;
+    background: #000;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+
+  /*Footer */
+  .footer-container {
+    background: hsl(221.54deg 41.94% 93.92%) !important;
+    margin-top: 5rem;
+    padding: 3rem 4rem;
+  }
+  .footer-store {
+    width: 75%;
+  }
+  .logotext {
+    color: hsl(15.45deg 96.12% 59.61%) !important;
+    font-size: 36px;
+    margin-bottom: 2rem;
+  }
+  .subs {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+  }
+  .footer-firstcol {
+    margin-top: 1rem;
+  }
+  .footer-container p {
+    margin-top: -15px;
+  }
+
+  /* Home page */
+  .leaders {
+    margin-top: 4rem;
+    padding: 4rem 1rem;
+  }
+  .tick {
+    width: 3%;
+  }
+  .leaders-h1 {
+    font-size: 30px;
+  }
+  .leaders-img {
+    width: 100%;
+  }
+  .leaders-openaccountbtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 55px;
+  }
+  .leaders-openaccountbtn:hover {
+    background: white;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .leaders-democcountbtn {
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+    color: hsl(15.45deg 96.12% 59.61%);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 45px;
+    margin-left: -30px;
+  }
+  .leaders-democcountbtn:hover {
+    color: #fff;
+    background: #000;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .cngcard {
+    padding: 1rem 1rem;
+  }
+  .cngcard .card {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    width: 80%;
+    height: 270px;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    border: none;
+  }
+  .cngcard-center {
+    background-color: hsl(221.54deg 41.94% 93.92%);
+  }
+  .cngcard-h {
+    font-size: 17px;
+    margin-top: 2rem;
+    padding: 0rem 1.5rem;
+  }
+  .cngcard-p {
+    margin-top: 1.5rem;
+    font-size: 12px;
+    padding: 0rem 1.5rem;
+  }
+  .cngcard-a {
+    color: hsl(224.35deg 36.8% 49.02%);
+    font-size: 12px;
+    padding: 0rem 1.5rem;
+  }
+  .cngcard-a1 {
+    color: black;
+    font-size: 12px;
+    padding: 0rem 1.5rem;
+  }
+  .availableon {
+    padding: 4rem 2rem;
+  }
+  .availableon-img {
+    width: 60%;
+  }
+  .availableon-h {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
+  .availableon-storeimg {
+    width: 60%;
+  }
+  .availableon-seconcol {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  .dataandresource {
+    background-color: hsl(221.54deg 41.94% 93.92%);
+    padding: 3rem 2rem;
+  }
+  .dataandresource-h {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+  .dataandresource-forexapi {
+    display: flex;
+  }
+  .dataandresource-forexapi-img {
+    width: 12%;
+    height: 49px;
+    margin-top: 10px;
+  }
+  .dataandresource-forexapi-h {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .dataandresource-forexapi-p {
+    font-size: 9px;
+  }
+  .dataandapispan {
+    text-decoration: underline;
+    font-weight: 800;
+  }
+  .dotted {
+    border-top: 2px dotted black;
+    height: 3px;
+    width: 100%;
+  }
+  .latestinsights-p {
+    font-size: 8px;
+    margin-top: -15px;
+  }
+  .viewinsights-btn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 5px 40px;
+    margin-top: 4px;
+  }
+  .viewinsights-btn:hover {
+    background: white;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .mt4andmt5 {
+    padding: 5rem 1rem;
+  }
+  .mt4andmt5-h {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  .mt4andmt5-h2 {
+    font-weight: 700;
+    color: hsl(15.45deg 96.12% 59.61%);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+  }
+  .mt4andmt5-img {
+    width: 7%;
+    height: 30px;
+  }
+  .mt4andmt5-img2 {
+    width: 7%;
+    height: 30px;
+  }
+  .mt4andmt5-texts {
+    height: 10px;
+  }
+  .mt4andmt5-firstcol {
+    padding: 4rem 6rem;
+  }
+  .mt4andmt5-seconcol {
+    padding: 4rem 6rem;
+  }
+  .btext {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .mt4andmt5-p {
+    font-size: 11px;
+    margin-top: -15px;
+  }
+  .gotomt4andmt5-btn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 7px 40px;
+    margin-top: 4px;
+  }
+  .gotomt4andmt5-btn:hover {
+    background: white;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+  }
+  .vl {
+    border-left: 1.5px solid hsl(15.45deg 96.12% 59.61%);
+    height: 185px;
+    position: relative;
+    left: 495px;
+    top: -42px;
+  }
+  .advantageofmt {
+    padding: 3rem 5rem;
+  }
+  .advantageofmt-img {
+    width: 47%;
+  }
+  .advantageofmt-h {
+    font-size: 25px;
+  }
+  .advantageofmt-p {
+    font-size: 12px;
+  }
+  .advantageofmt-firstcol {
+    margin-top: 5rem;
+    padding-left: 35px;
+  }
+  .powerfultools {
+    padding: 1rem 1rem;
+    background-color: hsl(221.54deg 41.94% 93.92%);
+  }
+  .powerfultools-img {
+    width: 85%;
+  }
+  .powerfultools-seconcol {
+    margin-top: 5rem;
+    padding-right: 95px;
+  }
+  .powerfultools-h {
+    font-size: 25px;
+  }
+  .powerfultools-p {
+    font-size: 12px;
+  }
+  .copytrading {
+    padding: 3rem 5rem;
+  }
+  .copytrading-img {
+    width: 75%;
+  }
+  .copytrading-img2 {
+    width: 15%;
+    height: 30px;
+  }
+  .copytrading-h {
+    font-size: 24px;
+  }
+  .copytrading-p {
+    font-size: 12px;
+  }
+  .copytrading-firstcol {
+    margin-top: 2rem;
+  }
+  .copytrading-h2 {
+    font-weight: 600;
+    color: hsl(15.45deg 96.12% 59.61%);
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .endless {
+    padding: 5rem 5rem;
+  }
+  .endless-h {
+    font-size: 24px;
+  }
+  .endless-p {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .endless-firstcol {
+    padding-left: 4rem;
+    margin-top: 170px;
+  }
+  .endless-h2 {
+    font-size: 14px;
+    color: hsl(15.45deg 96.12% 59.61%);
+    letter-spacing: 3px;
+    font-weight: 300;
+  }
+  .endless-p2 {
+    font-size: 28px;
+  }
+  .endless-p3 {
+    font-size: 18px;
+    padding-right: 110px;
+  }
+  .explore-btn {
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid hsl(15.45deg 96.12% 59.61%);
+    color: hsl(15.45deg 96.12% 59.61%);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 13px;
+  }
+
+  .nav-link-color {
+    color: #fff;
+    background-color: hsl(15.45deg 96.12% 59.61%);
+  }
+
+  /* Home page End */
+}
+
+/* Media Queries for 125% End*/
+
+/* Mobile View */
+
+@media (max-width: 578px) {
+  .leaders-p2 {
+    font-size: 91%;
+  }
+  .tradingsignals-adjus-p {
+    position: relative;
+    left: 0px;
+  }
+  .testimonials-fimg1 {
+    width: 90px;
+    height: 69px;
+    left: -47px;
+    top: 73px;
+  }
+  .testimonials-fimg2 {
+    width: 70px;
+    top: 225px;
+    left: -7rem;
+    height: 48px;
+  }
+  .testimonials-fimg3 {
+    width: 70px;
+    top: 366px;
+    height: 50px;
+    left: -206px;
+  }
+  .testimonials-fimg4 {
+    width: 27%;
+    left: 16rem;
+    height: 50px;
+    top: -24rem;
+  }
+  .testimonials-fimg5 {
+    width: 32%;
+    left: 11rem;
+    top: -275px;
+    height: 78px;
+  }
+  .testimonials-fimg6 {
+    width: 28%;
+    left: 5rem;
+    height: 50px;
+    top: -90px;
+  }
+  .ourmission-p {
+    font-size: 76%;
+  }
+  .ourmission-mview {
+    display: flex;
+    justify-content: start !important;
+  }
+  .endless-p3 {
+    font-size: 14px;
+    padding-right: 0px;
+  }
+  .tradingview-widget-container {
+    margin-top: 0rem;
+    padding: 1rem;
+  }
+  .cngcard-mview {
+    display: flex;
+    justify-content: center !important;
+  }
+  .leaders-democcountbtn {
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid hsl(15.45deg 96.12% 59.61%);
+    color: hsl(15.45deg 96.12% 59.61%);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 45px;
+    margin-left: 0rem;
+  }
+  .worldclass {
+    padding: 1rem 0rem;
+  }
+  .worldclass-img {
+    width: 100%;
+  }
+  .availableonall-img {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .availableonall {
+    padding: 1rem 0rem;
+  }
+  .availableonall-p {
+    font-size: 12px;
+    padding-right: 0rem;
+  }
+  .availableonall-card .card {
+    padding: 1rem 1rem;
+    border-radius: 0px;
+    border: 2px solid hsl(15.45deg 96.12% 59.61%);
+    margin-bottom: 2rem;
+  }
+  .availableonall-card-container {
+    margin-top: 2rem;
+  }
+  .practiceaccount {
+    padding: 0rem 0rem;
+    background-color: hsl(217.5deg 36.36% 95.69%);
+    padding-top: 1rem;
+  }
+  .practiceaccount-img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .platform-func {
+    padding: 1rem 0rem;
+  }
+  .platform-func td,
+  th {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .platformfunc-card .card {
+    padding: 2rem 2rem;
+    border: none;
+    border-radius: 0px;
+    background-color: hsl(221.54deg 41.94% 93.92%);
+    height: auto;
+  }
+  .tradingsignals {
+    padding: 2rem 0rem;
+  }
+  .tradingsignals-p {
+    font-size: 13px;
+    margin-top: 2px;
+    font-weight: 600;
+  }
+  .moreabout {
+    padding: 1rem 0rem;
+  }
+  .trydemo-seconcol {
+    margin-top: 2rem;
+  }
+  .moreabout-seconcol {
+    margin-top: 1rem;
+  }
+  .trydemo-img {
+    width: 200px;
+  }
+  .getallbenefits-firstcol {
+    margin-top: 3rem;
+  }
+  .movetiers-seconcol {
+    margin-top: 3rem;
+  }
+  .businessgrowth {
+    padding: 2rem 0rem;
+    margin-top: 0rem;
+  }
+  .worldmap {
+    padding: 2rem 0rem;
+  }
+  .worldmap-p {
+    text-align: center;
+    font-size: 12px;
+    padding: 0rem 0rem;
+    margin-top: 1rem;
+  }
+  .commonasked-questions {
+    padding: 2rem 0rem;
+  }
+  .commonasked-questions-img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .accordion-container {
+    padding: 0rem 0rem;
+    margin-top: 2rem;
+  }
+  .testimonials-img {
+    width: 60%;
+  }
+  .testimonials-p {
+    text-align: center;
+    color: gray;
+    font-size: 11px;
+    margin-top: 1rem;
+  }
+  .testimonials-h {
+    text-align: center;
+    font-size: 20px;
+  }
+  .businessgrowth-card .card {
+    padding: 2rem 3rem;
+    height: auto;
+    margin-top: 2rem;
+    border: none;
+    box-shadow: 1px 1px 5px hsl(15.45deg 96.12% 59.61%);
+    border-radius: 0px;
+  }
+  .businessgrowth-card-p {
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+    margin-top: 18px;
+  }
+  .worldmap-contents {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .worldmap-h {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .worldmap-bg {
+    background-image: url(../AboutPage/Dotted_Map_White_Background\ [Converted]\ 1.png);
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+  }
+  .worldmap-p {
+    text-align: center;
+    font-size: 12px;
+    padding: 0rem 0rem;
+    margin-top: 1rem;
+  }
+  .successfultrader {
+    padding: 2rem 0rem;
+  }
+  .successfultrader-firstcol {
+    margin-top: 1rem;
+  }
+  .successfultrader-img {
+    width: 100%;
+  }
+  .ourmission {
+    padding: 2rem 0rem;
+  }
+  .ourmission-img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .ourmission-seconcol {
+    margin-top: 2rem;
+  }
+  .movetiers-img {
+    width: 100%;
+  }
+  .getallbenefits-img {
+    width: 100%;
+  }
+  .movetiers {
+    padding: 2rem 0rem;
+  }
+  .chooseaccount {
+    padding: 5rem 0rem;
+  }
+  .chooseaccount-img {
+    width: 100%;
+    margin-bottom: -35px;
+  }
+  .our-features {
+    padding: 2rem 0rem;
+    background-color: hsl(221.54deg 41.94% 93.92%);
+  }
+  .our-features-img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .our-accounts {
+    padding: 2rem 0rem;
+  }
+  .ouraccounts-card .card {
+    border: none;
+    border-radius: 0px;
+    /* filter: drop-shadow(150px 70px 15px hsl(217.5deg 36.36% 95.69%)); */
+    height: auto;
+    padding: 3rem 0rem;
+    background: linear-gradient(135deg, hsl(217.5deg 36.36% 95.69%), #fff);
+    box-shadow: 0px 0px 80px hsl(217.5deg 36.36% 95.69%);
+    width: auto;
+    margin-bottom: 2rem;
+  }
+  .getallbenefits {
+    padding: 2rem 0rem;
+  }
+  .chooseaccountbtncnr {
+    display: flex;
+    justify-content: center;
+  }
+  .chooseaccount-learnmorebtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 20px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .learnmore-btn-mview {
+    display: flex;
+    justify-content: center;
+  }
+  .mview-colrev {
+    flex-direction: column-reverse;
+  }
+  .tradinginstruments {
+    padding: 4rem 0rem;
+  }
+  .tradinginstruments-img {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .tradeforex {
+    padding: 1rem 0rem;
+  }
+  .tradeforex-firstcol {
+    margin-top: 2rem;
+    padding: 0rem 0rem;
+  }
+  .tradeforex-img {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .tradespotmetals {
+    padding: 3rem 0rem;
+  }
+  .availableon-img {
+    width: 100%;
+  }
+  .endless {
+    padding: 2rem 0rem;
+  }
+  .endless-firstcol {
+    padding-left: 0rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .copytrading {
+    padding: 1rem 0rem;
+  }
+  .copytrading-firstcol {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .copytrading-img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .powerfultools {
+    padding: 1rem 0rem;
+  }
+  .powerfultools-img {
+    width: 100%;
+  }
+  .powerfultools-seconcol {
+    margin-top: 2rem;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .leaders-h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .advantageofmt {
+    padding: 2rem 0rem;
+  }
+  .advantageofmt-img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .advantageofmt-firstcol {
+    margin-top: 5rem;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .mt4andmt5 {
+    padding: 1rem 0rem;
+  }
+  .mt4andmt5-firstcol {
+    padding: 1rem 1rem;
+  }
+  .mt4andmt5-seconcol {
+    margin-top: 10rem;
+    padding: 1rem 1rem;
+    margin-bottom: 6rem;
+  }
+  .dataandresource-forexapi-p {
+    font-size: 12px;
+  }
+  .dataandresource-forexapi-img {
+    width: 16%;
+    height: 49px;
+    margin-top: 10px;
+  }
+  .dataandresource {
+    background-color: hsl(221.54deg 41.94% 93.92%);
+    padding: 3rem 1rem;
+  }
+  .leaders-btns {
+    display: flex;
+    justify-content: center;
+  }
+  .availableon-seconcol {
+    margin-top: 2rem;
+  }
+  .availableon-h {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .availableon-storeimg {
+    width: 100%;
+  }
+  .availableon {
+    padding: 2rem 0rem;
+  }
+  .cngcard {
+    padding: 1rem 0rem;
+  }
+  .cngcard-h {
+    font-size: 15px;
+    margin-top: 2rem;
+    padding: 0rem 1.5rem;
+  }
+  .leaders-img {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .leaders-openaccountbtn {
+    background: hsl(15.45deg 96.12% 59.61%);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 8px 68px;
+    margin-bottom: 1rem;
+  }
+  .leaders {
+    margin-top: 7rem;
+    padding: 0rem 0rem;
+  }
+  .brremoval-mview br {
+    display: none;
+  }
+  .footer-container {
+    background: hsl(221.54deg 41.94% 93.92%) !important;
+    margin-top: 5rem;
+    padding: 1rem 1rem;
+  }
+  .footer-store {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .footer-container p {
+    margin-top: -5px;
+  }
+}
+/* Mobile View End*/
+
+.navbar-bg {
+  min-height: 55px !important;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar-bg2 {
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+  animation: smoothScroll 1s forwards;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-50px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
